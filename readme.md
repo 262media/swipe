@@ -19,8 +19,7 @@ If javascript support is detected, the navigation layer should be placed on a lo
 If the device supports touch, then touch support is added so that revealing the menu or the contact info can be done by swiping right and left.
 
 
-## Testdrive
-
-[Check out the JQuery demo](http://www.torkiljohnsen.com/demo/layered-mobile-nav/) (use a small touchscreen, this is not responsive just yet)
-
-[Check out the Zepto demo](http://gregs.tcias.co.uk/wp-content/uploads/2012/04/zepto.pageswipe.htm) (use a small touchscreen, this is not responsive just yet)
+## Made this  fork to fix the iOS6 bug 
+## re-implements setTimeout, setInterval, clearTimeout, clearInterval for iOS6.
+## iOS6 suffers from a bug that kills timers that are created while a page is scrolling.
+## timers recreation  after scrolling finishes (with interval correction)
