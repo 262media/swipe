@@ -19,7 +19,7 @@ If javascript support is detected, the navigation layer should be placed on a lo
 If the device supports touch, then touch support is added so that revealing the menu or the contact info can be done by swiping right and left.
 
 
-## Made this  fork to fix the iOS6 bug 
-## re-implements setTimeout, setInterval, clearTimeout, clearInterval for iOS6.
-## iOS6 suffers from a bug that kills timers that are created while a page is scrolling.
-## timers recreation  after scrolling finishes (with interval correction)
+### Made this  fork to fix the iOS6 bug 
+#### re-implements setTimeout, setInterval, clearTimeout, clearInterval for iOS6.
+#### iOS6 suffers from a bug that kills timers that are created while a page is scrolling.
+###### timers recreation  after scrolling finishes (with interval correction)
